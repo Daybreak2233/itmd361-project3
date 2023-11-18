@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1em;
+  color: #4e4e4e;
+  min-width: 920px;
+  border-top: 10px solid #0c0e0e;
+  background-image:url('../images/background.jpg');
+  background-size: cover;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  text-align: center;
+  margin: 25px auto;
+  height: 40px;
+  background-color: #690;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#nav a {
+  line-height: 40px;
+  color: #f104ba;
+  text-decoration: none;
+  padding: 20px 20px;
+  margin: 40px 40px;
+  font-size: x-large;
+}
+
+#nav a:hover {
+  background-color: #060;
+  text-shadow: 4px 3px 1px rgba(47, 0, 135, 0.761) ;
+}
+
+section {
+  max-width: 90%;
+  margin: 5% auto;
+  padding: 2rem;
+  background-color: #fddbfb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+h1,h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  margin: 15px 0;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#resume section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#resume section ul li {
+  background-color: #d3f0f4;
+  border: 1px solid #be3e3e;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* image list without "." */
+.imgul {
+  list-style: none;
+}
+
+#chengdu p{
+  text-align: center;
+}
+
+#resume h2{
+  margin-bottom: 20px;
+}
+
+.back{
+  margin-right: 10px;
+  background-color: chocolate;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+}
+
+ul.imgul {
+  text-align: center;
+}
+
+section iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#map {
+  height: 100%;
+}
+
+#wrapper{
+  width: 850px;
+  margin: 0 auto;
+  background-color: #d15a5a;
+  overflow: hidden;
+}
+  
+#canvas{
+ width: 700px;
+ height: 500px;
+ background-color: rgb(228, 240, 172);
+ margin: 30px auto;
+}  
