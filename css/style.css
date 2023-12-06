@@ -159,11 +159,27 @@ section iframe {
 @media only screen and (max-width: 600px) {
   body {
     font-size: 14px;
+  }
 
-    #nav li {
-      display: block;
-      margin: 10px 0;
-    }
+  #nav {
+    margin: 10px auto;
+  }
+
+  #nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #nav a {
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
   }
 }
 
@@ -175,5 +191,26 @@ section iframe {
 
   #sidebar {
     display: none;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    margin-left: 10px;
   }
 }
