@@ -4,7 +4,7 @@ body {
   color: #4e4e4e;
   min-width: 920px;
   border-top: 10px solid #0c0e0e;
-  background-image:url('../images/background.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   max-width: 100%;
   margin: 0;
@@ -40,7 +40,7 @@ body {
 
 #nav a:hover {
   background-color: #060;
-  text-shadow: 4px 3px 1px rgba(47, 0, 135, 0.761) ;
+  text-shadow: 4px 3px 1px rgba(47, 0, 135, 0.761);
 }
 
 section {
@@ -52,7 +52,8 @@ section {
   border-radius: 1rem;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -109,15 +110,15 @@ a {
   list-style: none;
 }
 
-#chengdu p{
+#chengdu p {
   text-align: center;
 }
 
-#resume h2{
+#resume h2 {
   margin-bottom: 20px;
 }
 
-.back{
+.back {
   margin-right: 10px;
   background-color: chocolate;
 }
@@ -140,16 +141,39 @@ section iframe {
   height: 100%;
 }
 
-#wrapper{
+#wrapper {
   width: 850px;
   margin: 0 auto;
   background-color: #d15a5a;
   overflow: hidden;
 }
-  
-#canvas{
- width: 700px;
- height: 500px;
- background-color: rgb(228, 240, 172);
- margin: 30px auto;
-}  
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(228, 240, 172);
+  margin: 30px auto;
+}
+
+/* media */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+
+    #nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+}
+
+/* another smaller media */
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+
+  #sidebar {
+    display: none;
+  }
+}
